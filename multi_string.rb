@@ -1,19 +1,19 @@
-puts "Déclaration multiligne"
-puts <<~TEXT
+# Déclaration multiligne
+<<~TEXT
   Je suis une chaîne de caractère
   relativement longue donc je m'écris
   en plusieurs lignes.
 TEXT
 
-puts <<~TEXT
+<<~TEXT
   Je suis un simple texte
 TEXT
 
-puts <<~SQL
+<<~SQL
   SELECT * FROM table;
 SQL
 
-puts """
+"""
 Je suis une chaine de caractère
 relativement longue donc je m'écris
 en plusieurs lignes.
